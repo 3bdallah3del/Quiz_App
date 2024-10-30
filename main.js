@@ -48,7 +48,7 @@ function createQuizElements() {
      resultsContainer = document.querySelector(".results");
      countdown = document.querySelector(".countdown");
 }
-function getOusttions() {
+function getOusttions(category) {
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -74,10 +74,10 @@ function getOusttions() {
         }
         
     };
-    request.open("get","html_questions.json");
+    request.open("get", `${category}_questions.json`);
     request.send();
 }
-getOusttions()
+//getOusttions()
 
 function countandcreatebolets (num){
     count.innerHTML=num
