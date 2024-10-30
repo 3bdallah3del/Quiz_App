@@ -1,27 +1,30 @@
-Quiz App - JavaScript
-Project Description
-An interactive quiz application built with JavaScript. The app includes:
+# Interactive Quiz App - JavaScript
 
-A countdown timer for each question to help users manage time.
-Display of the total number of questions to track progress.
-Indicators (bullets) that change color as the user moves to the next question, enhancing interactivity.
-Final score display with feedback messages such as "Perfect" for all correct answers and "Good" for scores above half.
-Features
+## Project Description
 
-Time Management: Countdown timer for each question to enhance focus.
-Progress Tracking: Displays the current question number out of the total number of questions.
-Interactive Indicators: Bullets that change color to show the current question.
-Result Feedback: Displays the final score with feedback based on performance.
-Technologies Used
+A web-based interactive quiz application built with JavaScript, allowing users to select a quiz type (HTML, CSS, JavaScript) and answer multiple-choice questions. The app includes interactive features such as a countdown timer, progress tracking, and performance evaluation.
 
-HTML: Structure of the content.
-CSS: Styling of the application.
-JavaScript: Adds interactive functionality.
-How to Run the Project
-To run the app on your local machine:
+## Main Features
 
-Open index.html in a web browser.
-Enjoy the quiz experience with the timer, progress indicators, and final score feedback.
-Future Updates
+- **Quiz Type Selection**: On starting the app, the user must select the desired quiz type.
+- **Dynamic Quiz Interface**: Quiz elements (questions and answer options) are dynamically created based on the selected quiz type.
+- **Countdown Timer**: A countdown timer for each question, adding an element of challenge and focus.
+- **Progress Tracking with Bullets**: Bullets change color as the user progresses through the questions.
+- **Performance Evaluation**: Displays the final score with feedback such as "Perfect" for all correct answers and "Good" for scores above half.
 
-Randomized Questions: Displaying questions in a random order to enhance the challenge .
+## Technologies Used
+
+- **HTML**: For structuring the content.
+- **CSS**: For styling the interface.
+- **JavaScript**: For dynamic interaction, fetching questions from JSON files, and adding interactivity.
+
+## How to Run the Project
+
+1. Open the `index.html` file in a web browser.
+2. Choose a quiz type you want to take (HTML, CSS, or JavaScript).
+3. Start answering questions, note the countdown timer, and track your progress with interactive bullets.
+4. After completing the quiz, you’ll see the final score along with feedback based on your performance.
+
+## Future Updates
+
+- **Randomized Questions**: Adding a feature to display questions in a random order for more challenge.

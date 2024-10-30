@@ -1,0 +1,82 @@
+[
+    {
+        "title": "What is CSS?",
+        "answer_1": "A programming language",
+        "answer_2": "A web page design language",
+        "answer_3": "A database language",
+        "answer_4": "A back-end development language",
+        "right_answer": "A web page design language"
+    },
+    {
+        "title": "How can you add an external CSS file to an HTML document?",
+        "answer_1": "<link rel='stylesheet' href='styles.css'>",
+        "answer_2": "<script src='styles.css'></script>",
+        "answer_3": "<style src='styles.css'></style>",
+        "answer_4": "<css href='styles.css'></css>",
+        "right_answer": "<link rel='stylesheet' href='styles.css'>"
+    },
+    {
+        "title": "What is the main purpose of CSS?",
+        "answer_1": "Control JavaScript behavior",
+        "answer_2": "Add interactivity to web pages",
+        "answer_3": "Design the look and feel of web pages",
+        "answer_4": "Manage data in databases",
+        "right_answer": "Design the look and feel of web pages"
+    },
+    {
+        "title": "Which of the following is used to set the background color of an element?",
+        "answer_1": "background-color: red;",
+        "answer_2": "color: red;",
+        "answer_3": "border: red;",
+        "answer_4": "text-color: red;",
+        "right_answer": "background-color: red;"
+    },
+    {
+        "title": "How can you make the text in an element bold using CSS?",
+        "answer_1": "font-weight: bold;",
+        "answer_2": "text-style: bold;",
+        "answer_3": "font-style: bold;",
+        "answer_4": "font-size: bold;",
+        "right_answer": "font-weight: bold;"
+    },
+    {
+        "title": "What property is used to change the text color of an element?",
+        "answer_1": "color",
+        "answer_2": "text-color",
+        "answer_3": "font-color",
+        "answer_4": "bgcolor",
+        "right_answer": "color"
+    },
+    {
+        "title": "Which unit of measurement is commonly used to define font size in CSS?",
+        "answer_1": "px",
+        "answer_2": "in",
+        "answer_3": "cm",
+        "answer_4": "all of the above",
+        "right_answer": "all of the above"
+    },
+    {
+        "title": "How can you center text within an element using CSS?",
+        "answer_1": "text-align: center;",
+        "answer_2": "align-text: center;",
+        "answer_3": "vertical-align: center;",
+        "answer_4": "center: true;",
+        "right_answer": "text-align: center;"
+    },
+    {
+        "title": "Which of the following properties can be used to create space around an element?",
+        "answer_1": "margin",
+        "answer_2": "padding",
+        "answer_3": "spacing",
+        "answer_4": "border-spacing",
+        "right_answer": "margin"
+    },
+    {
+        "title": "What is the purpose of the `flexbox` property in CSS?",
+        "answer_1": "To improve page performance",
+        "answer_2": "To design page elements flexibly",
+        "answer_3": "To add animation effects",
+        "answer_4": "To manage databases",
+        "right_answer": "To design page elements flexibly"
+    }
+]

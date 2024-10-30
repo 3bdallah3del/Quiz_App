@@ -1,14 +1,53 @@
-let count = document.querySelector(".count span");
-let bulletsSpanContainer  = document.querySelector(".bullets .spans");
-let quizarea = document.querySelector(".quiz-area");
-let answers = document.querySelector(".answers-area");
-let submit = document.querySelector(".submit-button");
-let bullets = document.querySelector(".bullets");
-let resultsContainer = document.querySelector(".results");
-let countdown = document.querySelector(".countdown");
+let quizarea, answers, submit, countdown, resultsContainer;
 let curent =0;
 let rightAnswer =0;
 let countdowninterval;
+document.getElementById("html-quiz").addEventListener("click", function() {
+    startQuiz('html');
+});
+document.getElementById("Css-quiz").addEventListener("click", function() {
+    startQuiz('Css');
+});
+
+document.getElementById("javascript-quiz").addEventListener("click", function() {
+    startQuiz('javascript');
+});
+function startQuiz(category) {
+    document.querySelector(".start-screen").style.display = "none";
+    createQuizElements();
+    document.querySelector(".category span").textContent = category.toUpperCase() ;
+
+    getOusttions(category); 
+}
+function createQuizElements() {
+    const quizApp = document.createElement("div");
+    quizApp.className = "quiz-app";
+    
+    quizApp.innerHTML = `
+        <div class="quiz-info">
+            <div class="category">Category: <span></span></div>
+            <div class="count">Questions Count: <span></span></div>
+        </div>
+        <div class="quiz-area"></div>
+        <div class="answers-area"></div>
+        <button class="submit-button">Submit Answer</button>
+        <div class="bullets">
+            <div class="spans"></div>
+            <div class="countdown"></div>
+        </div>
+        <div class="results"></div>
+    `;
+    
+    document.body.appendChild(quizApp);
+     count = document.querySelector(".count span");
+     bulletsSpanContainer  = document.querySelector(".bullets .spans");
+     quizarea = document.querySelector(".quiz-area");
+     answers = document.querySelector(".answers-area");
+     submit = document.querySelector(".submit-button");
+     bullets = document.querySelector(".bullets");
+     resultsContainer = document.querySelector(".results");
+     countdown = document.querySelector(".countdown");
+}
 function getOusttions() {
     let request = new XMLHttpRequest();
     request.onreadystatechange = function () {
